@@ -16,5 +16,7 @@ go get github.com/gruntwork-io/terratest/modules/terraform
 
 ## Testing ##
 Execute the tests:
+```
 cd tests/
 go test
+```
