@@ -20,3 +20,15 @@ Execute the tests:
 cd tests/
 go test
 ```
+
+## Infrastructure Test Ideas ##
+1. Test server responds on a specific port
+2. Test ports open/closed
+  - ssh
+3. Check status of EC2 instance
+4. SSL certs being presented
+  - Expiration date
+5. Resources tagged as expected and following name formats
+6. VPC boundaries established and enforced
+7. Subnets private vs public
+8. S3 bucket policies
